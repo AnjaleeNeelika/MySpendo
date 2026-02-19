@@ -4,6 +4,7 @@ import { useRouter, Link } from 'expo-router';
 import { Button } from '@/components/ui/Button';
 import { Input } from '@/components/ui/Input';
 import { useTheme } from '@/constants/ThemeContext';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 export default function SignupScreen() {
     const router = useRouter();
@@ -30,7 +31,7 @@ export default function SignupScreen() {
     };
 
     return (
-        <View style={[styles.container, { backgroundColor: colors.background }]}>
+        <SafeAreaView style={[styles.container, { backgroundColor: colors.background }]}>
             <View style={styles.header}>
                 <Text style={[styles.title, { color: colors.textPrimary }]}>Create Account</Text>
                 <Text style={[styles.subtitle, { color: colors.textSecondary }]}>Sign up to get started</Text>
@@ -81,7 +82,7 @@ export default function SignupScreen() {
                     </Link>
                 </View>
             </View>
-        </View>
+        </SafeAreaView>
     );
 }
 

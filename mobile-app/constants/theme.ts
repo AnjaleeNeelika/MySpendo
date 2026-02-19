@@ -1,107 +1,117 @@
 // Light Mode Colors
 export const lightColors = {
-    // Primary Colors
-    primary: '#007AFF',
-    primaryDark: '#0051D5',
-    primaryLight: '#4DA2FF',
+    // Primary Colors - Professional Indigo
+    primary: '#6366F1',
+    primaryDark: '#4F46E5',
+    primaryLight: '#818CF8',
 
-    // Secondary Colors
-    secondary: '#5856D6',
-    secondaryDark: '#3634A3',
-    secondaryLight: '#7D7BE8',
+    // Secondary Colors - Slate
+    secondary: '#64748B',
+    secondaryDark: '#475569',
+    secondaryLight: '#94A3B8',
 
-    // Accent Colors
-    accent: '#34C759',
-    accentDark: '#248A3D',
-    accentLight: '#5DD97C',
+    // Accent Colors - Professional Cyan
+    accent: '#06B6D4',
+    accentDark: '#0891B2',
+    accentLight: '#22D3EE',
+
+    // Financial Semantic Colors
+    income: '#10B981',   // Emerald
+    expense: '#EF4444',  // Red
+    savings: '#3B82F6',  // Blue
 
     // Neutral Colors
     white: '#FFFFFF',
-    black: '#000000',
-    gray50: '#F9FAFB',
-    gray100: '#F3F4F6',
-    gray200: '#E5E7EB',
-    gray300: '#D1D5DB',
-    gray400: '#9CA3AF',
-    gray500: '#6B7280',
-    gray600: '#4B5563',
-    gray700: '#374151',
-    gray800: '#1F2937',
-    gray900: '#111827',
+    black: '#020617',
+    gray50: '#F8FAFC',
+    gray100: '#F1F5F9',
+    gray200: '#E2E8F0',
+    gray300: '#CBD5E1',
+    gray400: '#94A3B8',
+    gray500: '#64748B',
+    gray600: '#475569',
+    gray700: '#334155',
+    gray800: '#1E293B',
+    gray900: '#0F172A',
 
     // Semantic Colors
-    success: '#34C759',
-    warning: '#FF9500',
-    error: '#FF3B30',
-    info: '#007AFF',
+    success: '#10B981',
+    warning: '#F59E0B',
+    error: '#EF4444',
+    info: '#6366F1',
 
     // Background Colors
-    background: '#FFFFFF',
-    backgroundSecondary: '#F9FAFB',
+    background: '#F8FAFC',
+    backgroundSecondary: '#F1F5F9',
     surface: '#FFFFFF',
 
     // Text Colors
-    textPrimary: '#000000',
-    textSecondary: '#6B7280',
-    textTertiary: '#9CA3AF',
+    textPrimary: '#0F172A',
+    textSecondary: '#64748B',
+    textTertiary: '#94A3B8',
     textInverse: '#FFFFFF',
 
     // Border Colors
-    border: '#E5E7EB',
-    borderDark: '#D1D5DB',
+    border: '#E2E8F0',
+    borderDark: '#CBD5E1',
 };
 
 // Dark Mode Colors
 export const darkColors = {
-    // Primary Colors
-    primary: '#0A84FF',
-    primaryDark: '#0066CC',
-    primaryLight: '#409CFF',
+    // Primary Colors - Professional Indigo
+    primary: '#818CF8',
+    primaryDark: '#6366F1',
+    primaryLight: '#A5B4FC',
 
-    // Secondary Colors
-    secondary: '#5E5CE6',
-    secondaryDark: '#4846B8',
-    secondaryLight: '#7D7AFF',
+    // Secondary Colors - Slate
+    secondary: '#94A3B8',
+    secondaryDark: '#64748B',
+    secondaryLight: '#CBD5E1',
 
-    // Accent Colors
-    accent: '#30D158',
-    accentDark: '#248A3D',
-    accentLight: '#5DD97C',
+    // Accent Colors - professional Cyan
+    accent: '#22D3EE',
+    accentDark: '#06B6D4',
+    accentLight: '#67E8F9',
+
+    // Financial Semantic Colors
+    income: '#34D399',   // Emerald
+    expense: '#F87171',  // Red
+    savings: '#60A5FA',  // Blue
 
     // Neutral Colors
     white: '#FFFFFF',
-    black: '#000000',
-    gray50: '#1C1C1E',
-    gray100: '#2C2C2E',
-    gray200: '#3A3A3C',
-    gray300: '#48484A',
-    gray400: '#636366',
-    gray500: '#8E8E93',
-    gray600: '#AEAEB2',
-    gray700: '#C7C7CC',
-    gray800: '#D1D1D6',
-    gray900: '#E5E5EA',
+    black: '#020617',
+    gray50: '#0F172A',
+    gray100: '#1E293B',
+    gray200: '#334155',
+    gray300: '#475569',
+    gray400: '#64748B',
+    gray500: '#94A3B8',
+    gray600: '#CBD5E1',
+    gray700: '#E2E8F0',
+    gray800: '#F1F5F9',
+    gray900: '#F8FAFC',
 
     // Semantic Colors
-    success: '#30D158',
-    warning: '#FF9F0A',
-    error: '#FF453A',
-    info: '#0A84FF',
+    success: '#34D399',
+    warning: '#FBBF24',
+    error: '#F87171',
+    info: '#818CF8',
 
     // Background Colors
-    background: '#000000',
-    backgroundSecondary: '#1C1C1E',
-    surface: '#1C1C1E',
+    background: '#020617',
+    backgroundSecondary: '#0F172A',
+    surface: '#0F172A',
 
     // Text Colors
-    textPrimary: '#FFFFFF',
-    textSecondary: '#AEAEB2',
-    textTertiary: '#8E8E93',
-    textInverse: '#000000',
+    textPrimary: '#F8FAFC',
+    textSecondary: '#94A3B8',
+    textTertiary: '#64748B',
+    textInverse: '#020617',
 
     // Border Colors
-    border: '#38383A',
-    borderDark: '#48484A',
+    border: '#1E293B',
+    borderDark: '#334155',
 };
 
 // Typography (same for both themes)

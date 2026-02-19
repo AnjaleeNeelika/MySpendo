@@ -81,7 +81,9 @@ export default function OnboardingScreen() {
                     key={index}
                     style={[
                         styles.dot,
-                        currentIndex === index ? styles.dotActive : styles.dotInactive,
+                        currentIndex === index
+                            ? [styles.dotActive, { backgroundColor: colors.primary }]
+                            : [styles.dotInactive, { backgroundColor: colors.gray300 }],
                     ]}
                 />
             ))}
@@ -108,7 +110,7 @@ export default function OnboardingScreen() {
                 {currentIndex < slides.length - 1 ? (
                     <View style={styles.buttonRow}>
                         <TouchableOpacity onPress={handleSkip} style={styles.skipButton}>
-                            <Text style={styles.skipText}>Skip</Text>
+                            <Text style={[styles.skipText, { color: colors.primary }]}>Skip</Text>
                         </TouchableOpacity>
                         <Button title="Next" onPress={handleNext} variant="primary" />
                     </View>
@@ -162,7 +164,7 @@ const styles = StyleSheet.create({
         marginHorizontal: 4,
     },
     dotActive: {
-        backgroundColor: '#007AFF',
+        backgroundColor: '#6366F1', // We'll keep this but the inline styles for pagination will override it if we were rigorous, but for now let's just use the theme colors in the component
         width: 24,
     },
     dotInactive: {
@@ -181,7 +183,6 @@ const styles = StyleSheet.create({
         padding: 12,
     },
     skipText: {
-        color: '#007AFF',
         fontSize: 16,
         fontWeight: '600',
     },
