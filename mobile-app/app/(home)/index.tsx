@@ -10,11 +10,11 @@ import { ProfileMenu } from "@/components/home/ProfileMenu";
 import { MaterialIcons, Octicons } from "@expo/vector-icons";
 
 const TRANSACTIONS = [
-    { id: '1', title: 'Salary', category: 'Monthly', amount: '$5,000.00', date: 'Feb 15, 2026', type: 'income' as const, icon: 'payments' as const },
-    { id: '2', title: 'Grocery Store', category: 'Food', amount: '$85.20', date: 'Feb 18, 2026', type: 'expense' as const, icon: 'shopping-cart' as const },
-    { id: '3', title: 'Rent', category: 'Housing', amount: '$1,200.00', date: 'Feb 1, 2026', type: 'expense' as const, icon: 'home' as const },
-    { id: '4', title: 'Freelance Work', category: 'Design', amount: '$450.00', date: 'Feb 17, 2026', type: 'income' as const, icon: 'work' as const },
-    { id: '5', title: 'Netflix', category: 'Entertainment', amount: '$15.99', date: 'Feb 10, 2026', type: 'expense' as const, icon: 'subscriptions' as const },
+    { id: '1', title: 'Salary', category: 'Monthly', amount: 'Rs.5,000.00', date: 'Feb 15, 2026', type: 'income' as const, icon: 'payments' as const },
+    { id: '2', title: 'Grocery Store', category: 'Food', amount: 'Rs.85.20', date: 'Feb 18, 2026', type: 'expense' as const, icon: 'shopping-cart' as const },
+    { id: '3', title: 'Rent', category: 'Housing', amount: 'Rs.1,200.00', date: 'Feb 1, 2026', type: 'expense' as const, icon: 'home' as const },
+    { id: '4', title: 'Freelance Work', category: 'Design', amount: 'Rs.450.00', date: 'Feb 17, 2026', type: 'income' as const, icon: 'work' as const },
+    { id: '5', title: 'Netflix', category: 'Entertainment', amount: 'Rs.15.99', date: 'Feb 10, 2026', type: 'expense' as const, icon: 'subscriptions' as const },
 ];
 
 export default function HomeScreen() {
@@ -42,9 +42,9 @@ export default function HomeScreen() {
 
             <ScrollView showsVerticalScrollIndicator={false}>
                 <SummaryCard
-                    balance="$4,148.81"
-                    income="$5,450.00"
-                    expenses="$1,301.19"
+                    balance="Rs.4,148.81"
+                    income="Rs.5,450.00"
+                    expenses="Rs.1,301.19"
                 />
 
                 <View style={styles.sectionHeader}>
