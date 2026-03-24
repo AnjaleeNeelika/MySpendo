@@ -7,7 +7,7 @@ export default function BudgetScreen() {
     const { colors } = theme;
 
     return (
-        <SafeAreaView style={[styles.container, { backgroundColor: colors.background }]}>
+        <SafeAreaView style={[styles.container, { backgroundColor: colors.background }]} edges={['top', 'left', 'right']}>
             <View style={styles.header}>
                 <Text style={[styles.headerTitle, { color: colors.textPrimary }]}>Budget</Text>
             </View>

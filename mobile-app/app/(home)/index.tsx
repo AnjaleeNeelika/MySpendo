@@ -28,7 +28,7 @@ export default function HomeScreen() {
     };
 
     return (
-        <SafeAreaView style={[styles.container, { backgroundColor: colors.background }]}>
+        <SafeAreaView style={[styles.container, { backgroundColor: colors.background }]} edges={['top', 'left', 'right']}>
             <View style={styles.header}>
                 <Text style={[styles.headerTitle, { color: colors.textPrimary }]}>MySpendo Dashboard</Text>
                 {/* <Button title="Log Out" onPress={handleLogout} variant="outline" /> */}
@@ -42,9 +42,9 @@ export default function HomeScreen() {
 
             <ScrollView showsVerticalScrollIndicator={false}>
                 <SummaryCard
-                    balance="Rs.4,148.81"
-                    income="Rs.5,450.00"
-                    expenses="Rs.1,301.19"
+                    balance="Rs.56,306.19"
+                    income="Rs.63,455.00"
+                    expenses="Rs.7,148.81"
                 />
 
                 <View style={styles.sectionHeader}>
@@ -70,7 +70,6 @@ export default function HomeScreen() {
                     <TransactionItem key={item.id} {...item} />
                 ))}
 
-                <View style={{ height: 40 }} />
             </ScrollView>
 
             <ProfileMenu
